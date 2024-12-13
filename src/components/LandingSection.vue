@@ -1,31 +1,46 @@
 <template>
   <v-sheet id="home" class="mb-n4">
     <v-row>
-      <v-col cols="5">
+      <!-- Text content column -->
+      <v-col  cols="12" md="5" sm="12">
         <div style="min-height: 100px"></div>
         <v-container>
           <v-row class="mx-5 d-flex justify-end align-end text-end">
             <div class="text-h6 font-weight-light">
-              Hemant Traders lamination film suppliers India
+              HEMANT TRADERS COMPLETE POST PRESS SOLUTIONS | INDIA
             </div>
             <div class="text-h3 my-5">
-              Speak to a leading plastic film converter.
+              Speak to India's Leading Film & Adhesives Supplier.
             </div>
             <div class="text-h6 font-weight-light paragraph">
-              We are Hemant Traders, a leading plastic film converters based in
-              India. We offer an unrivalled level of service and a wide range of
-              plastic films for all applications. From carton window patching
-              films to flexible packaging films.
+              We are Hemant Traders, a leading BOPP and Polyester (PET) film
+              converters, Lamination and Book Binding Adhesives, UV
+              Coat Suppliers based in Pune, MH, India. We offer an unrivalled
+              level of service and a wide range of films, adhesives, and UV
+              Coats for all applications.
             </div>
             <v-col cols="12">
-              <v-btn color="primary" class="mx-5">
-                <v-icon>mdi-phone</v-icon>
-                CALL
+              <v-btn
+                variant="tonal"
+                color="primary"
+                class="mx-5"
+                rounded
+                size="large"
+                href="tel:919422080922"
+                target="_blank"
+              >
+                <v-icon class="mr-2">mdi-phone</v-icon>
+                +91-9422080922
               </v-btn>
+
               <v-btn
                 color="primary"
+                elevation="0"
+                variant="outlined"
                 href="https://wa.me/919422080922"
                 target="_blank"
+                rounded
+                size="large"
               >
                 <v-icon>mdi-whatsapp</v-icon>
                 WHATSAPP
@@ -34,7 +49,9 @@
           </v-row>
         </v-container>
       </v-col>
-      <v-col cols="7">
+
+      <!-- SVG content column -->
+      <v-col md="7" class="hidden-sm-and-down">
         <svg
           id="visual"
           viewBox="0 0 900 600"

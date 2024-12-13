@@ -1,6 +1,6 @@
 <template>
   <v-sheet
-    id="ContactUs"
+    id="contactus"
     class="text-center py-16"
     color="primary"
   >
