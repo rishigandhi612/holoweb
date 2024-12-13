@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="16e872d1-034e-49b8-8b71-ad0005c256a7"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="8584f78d-5fba-48c3-bd89-21afbad4e05a"  >
+</g>
+<g transform="matrix(1.2 0 0 1.2 446.36 540)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 0)" id="visual"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-450" y="-300" rx="0" ry="0" width="900" height="600" />
+</g>
+		<g transform="matrix(1 0 0 1 108 0)" id="visual"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(247,119,15); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-558, -300)" d="M 649 600 L 594.3 583.3 C 539.7 566.7 430.3 533.3 352 500 C 273.7 466.7 226.3 433.3 229.8 400 C 233.3 366.7 287.7 333.3 351 300 C 414.3 266.7 486.7 233.3 511.2 200 C 535.7 166.7 512.3 133.3 455.2 100 C 398 66.7 307 33.3 261.5 16.7 L 216 0 L 900 0 L 900 16.7 C 900 33.3 900 66.7 900 100 C 900 133.3 900 166.7 900 200 C 900 233.3 900 266.7 900 300 C 900 333.3 900 366.7 900 400 C 900 433.3 900 466.7 900 500 C 900 533.3 900 566.7 900 583.3 L 900 600 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

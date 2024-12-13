@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar :elevation="0">
+  <v-app-bar :elevation="0" style="border-bottom: 1px solid black">
     <template #title>
       <div class="d-inline-flex align-center text-h4 font-weight-bold my-5 text-primary">
         <v-img
@@ -12,7 +12,6 @@
         HEMANT TRADERS
       </div>
     </template>
-
     <template v-if="$vuetify.display.mdAndUp" #append>
       <div class="hidden-sm-and-down">
         <v-btn v-for="item in menu" :key="item" class="text-body-1 blue-grey-darken-4" :href="`#${item.toLowerCase()}`"
@@ -21,9 +20,7 @@
         </v-btn>
       </div>
     </template>
-    
   </v-app-bar>
-  <v-divider class="border-opacity-100"></v-divider>
 </template>
 
 <script setup>
