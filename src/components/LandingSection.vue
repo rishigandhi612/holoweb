@@ -42,7 +42,7 @@
               </v-btn>
 
               <v-btn
-                color="primary"
+                color="primary my-2"
                 elevation="0"
                 variant="outlined"
                 href="https://wa.me/919422080922"
