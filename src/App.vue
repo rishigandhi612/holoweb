@@ -9,7 +9,7 @@
 
       <DiscoverHelp />
 
-      <FunFactsSection />
+    
 
       <WhatPeopleSaySection />
 
@@ -22,6 +22,7 @@
       <AmazingFeaturesSection />
 
       <PricingSection />
+      <FunFactsSection />
 
       <FAQSection />
 

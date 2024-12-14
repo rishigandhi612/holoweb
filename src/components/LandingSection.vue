@@ -6,47 +6,45 @@
         <div style="min-height: 100px"></div>
         <v-container>
           <v-row class="mx-5 d-flex justify-end align-end text-end">
-            <div class="text-h6 font-weight-light">
-              HEMANT TRADERS COMPLETE POST PRESS SOLUTIONS | INDIA
-            </div>
-            <div class="text-h3 my-5">
-              Speak to India's Leading Film & Adhesives Supplier.
-            </div>
-            <div class="text-h6 font-weight-light paragraph">
-              We are Hemant Traders, a leading BOPP and Polyester (PET) film
-              converters, Lamination and Book Binding Adhesives, UV
-              Coat Suppliers based in Pune, MH, India. We offer an unrivalled
-              level of service and a wide range of films, adhesives, and UV
-              Coats for all applications.
-            </div>
-            <v-col cols="12">
-              <v-btn
-                variant="tonal"
-                color="primary"
-                class="mx-5"
-                rounded
-                size="large"
-                href="tel:919422080922"
-                target="_blank"
-              >
-                <v-icon class="mr-2">mdi-phone</v-icon>
-                +91-9422080922
-              </v-btn>
+  <div class="text-h6 font-weight-light">
+    HEMANT TRADERS | COMPLETE POST-PRESS SOLUTIONS | INDIA
+  </div>
+  <div class="text-h3 my-5">
+    Connect with India's Trusted Film & Adhesives Supplier.
+  </div>
+  <div class="text-h6 font-weight-light paragraph">
+    At Hemant Traders, we specialize in BOPP and Polyester (PET) film conversions, lamination, bookbinding & pasting adhesives, and UV coat solutions. 
+    Based in Pune, Maharashtra, India, we are committed to delivering exceptional service and a comprehensive range of films, adhesives, and UV coats tailored for diverse applications.
+  </div>
+  <v-col cols="12">
+    <v-btn
+      variant="tonal"
+      color="primary"
+      class="mx-5"
+      rounded
+      size="large"
+      href="tel:919422080922"
+      target="_blank"
+    >
+      <v-icon class="mr-2">mdi-phone</v-icon>
+      +91-9422080922
+    </v-btn>
 
-              <v-btn
-                color="primary"
-                elevation="0"
-                variant="outlined"
-                href="https://wa.me/919422080922"
-                target="_blank"
-                rounded
-                size="large"
-              >
-                <v-icon>mdi-whatsapp</v-icon>
-                WHATSAPP
-              </v-btn>
-            </v-col>
-          </v-row>
+    <v-btn
+      color="primary"
+      elevation="0"
+      variant="outlined"
+      href="https://wa.me/919422080922"
+      target="_blank"
+      rounded
+      size="large"
+    >
+      <v-icon>mdi-whatsapp</v-icon>
+      WhatsApp
+    </v-btn>
+  </v-col>
+</v-row>
+
         </v-container>
       </v-col>
 

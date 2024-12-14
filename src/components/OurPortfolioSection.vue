@@ -1,5 +1,5 @@
 <template>
-  <v-sheet id="work" class="text-center py-16">
+  <v-sheet id="products" class="text-center py-16">
     <div class="text-h4 font-weight-bold">
       Our Portfolio
     </div>

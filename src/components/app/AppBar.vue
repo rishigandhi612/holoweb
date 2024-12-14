@@ -61,10 +61,8 @@ const drawer = ref(false); // State for the navigation drawer
 const menu = [
   'Home',
   'About',
-  'Testimonials',
-  'Work',
-  'Team',
-  'Features',
+  'Applications',
+  'Products',
   'ContactUs',
 ];
 </script>

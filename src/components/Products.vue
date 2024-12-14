@@ -48,7 +48,9 @@
             tile
           >
             <v-card-title class="justify-center">
-              <v-icon large class="mb-3" :color="item.iconColor">{{ item.icon }}</v-icon>
+              <v-icon large class="mb-3" :color="item.iconColor">{{
+                item.icon
+              }}</v-icon>
             </v-card-title>
             <v-card-text>
               <div class="text-h6 font-weight-bold text-primary">
@@ -86,45 +88,47 @@
       <v-card>
         <v-card-title class="text-h6 text-center">Contact Us</v-card-title>
         <v-card-text>
-          <v-list>
+          <v-list lines="three">
             <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="text-primary">
-                  <a href="mailto:info@hemanttraders.com" class="text-decoration-none" aria-label="Email Us">
-                    <v-icon left>mdi-email</v-icon> Email Us
-                  </a>
-                </v-list-item-title>
-              </v-list-item-content>
+              <v-list-item-title>
+                <a
+                  href="mailto:info@hemanttraders.com"
+                  class="text-decoration-none text-primary"
+                  aria-label="Email"
+                >
+                  <v-icon left>mdi-email</v-icon> Mail
+                </a>
+              </v-list-item-title>
             </v-list-item>
-
             <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="text-primary">
-                  <a href="tel:+911234567890" class="text-decoration-none" aria-label="Call Us">
-                    <v-icon left>mdi-phone</v-icon> Call Us
-                  </a>
-                </v-list-item-title>
-              </v-list-item-content>
+              <v-list-item-title>
+                <a
+                  href="tel:+911234567890"
+                  class="text-decoration-none text-primary"
+                  aria-label="Call"
+                >
+                  <v-icon left>mdi-phone</v-icon> Call
+                </a>
+              </v-list-item-title>
             </v-list-item>
-
             <v-list-item>
-              <v-list-item-content>
-                <v-list-item-title class="text-primary">
-                  <a
-                    href="https://wa.me/911234567890"
-                    target="_blank"
-                    class="text-decoration-none"
-                    aria-label="WhatsApp Us"
-                  >
-                    <v-icon left>mdi-whatsapp</v-icon> WhatsApp Us
-                  </a>
-                </v-list-item-title>
-              </v-list-item-content>
+              <v-list-item-title>
+                <a
+                  href="https://wa.me/911234567890"
+                  target="_blank"
+                  class="text-decoration-none text-primary"
+                  aria-label="WhatsApp"
+                >
+                  <v-icon left>mdi-whatsapp</v-icon> WhatsApp
+                </a>
+              </v-list-item-title>
             </v-list-item>
           </v-list>
         </v-card-text>
         <v-card-actions>
-          <v-btn color="primary" text @click="dialog = false" aria-label="Close">Close</v-btn>
+          <v-btn color="primary" text @click="dialog = false" aria-label="Close"
+            >Close</v-btn
+          >
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -132,7 +136,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const dialog = ref(false);
 
