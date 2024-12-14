@@ -2,70 +2,91 @@
   <v-sheet id="home" class="mb-n4">
     <v-row>
       <!-- Text content column -->
-      <v-col  cols="12" md="5" sm="12">
+      <v-col cols="12" md="6" sm="12">
         <div style="min-height: 100px"></div>
         <v-container>
-          <v-row class="mx-5 d-flex justify-end align-end text-end">
-  <div class="text-h6 font-weight-light">
-    HEMANT TRADERS | COMPLETE POST-PRESS SOLUTIONS | INDIA
-  </div>
-  <div class="text-h3 my-5">
-    Connect with India's Trusted Film & Adhesives Supplier.
-  </div>
-  <div class="text-h6 font-weight-light paragraph">
-    At Hemant Traders, we specialize in BOPP and Polyester (PET) film conversions, lamination, bookbinding & pasting adhesives, and UV coat solutions. 
-    Based in Pune, Maharashtra, India, we are committed to delivering exceptional service and a comprehensive range of films, adhesives, and UV coats tailored for diverse applications.
-  </div>
-  <v-col cols="12">
-    <v-btn
-      variant="tonal"
-      color="primary"
-      class="mx-5"
-      rounded
-      size="large"
-      href="tel:919422080922"
-      target="_blank"
-    >
-      <v-icon class="mr-2">mdi-phone</v-icon>
-      +91-9422080922
-    </v-btn>
+          <v-row class="mx-5 my-0 py-0 d-flex justify-center align-center text-center">
+            <div class="text-h6 font-weight-light">
+              HEMANT TRADERS | COMPLETE POST-PRESS SOLUTIONS | INDIA
+            </div>
+            <div class="text-h3 my-5">
+              Connect with India's Trusted Film & Adhesives Supplier.
+            </div>
+            <div class="text-h6 font-weight-light paragraph">
+              At Hemant Traders, we specialize in BOPP (Biaxially Oriented
+              Polypropylene) and Polyester (PET) film conversions, catering to a
+              wide range of industries. Our expertise includes lamination films,
+              bookbinding and pasting adhesives, and UV coat solutions, designed
+              to meet diverse application needs with precision and quality.
+              Based in Pune, Maharashtra, India, we are committed to delivering
+              top-notch products and exceptional service. Our solutions are
+              tailored to enhance durability, aesthetics, and functionality,
+              making us a trusted partner for packaging, publishing, and
+              commercial printing industries. With a focus on quality,
+              innovation, and customer satisfaction, Hemant Traders offers a
+              comprehensive range of films, adhesives, and UV coats to support
+              your business with reliable and efficient solutions.
+            </div>
+            <v-col cols="12">
+              <v-btn
+                variant="tonal"
+                color="primary"
+                class="mx-5"
+                rounded
+                size="large"
+                href="tel:919422080922"
+                target="_blank"
+              >
+                <v-icon class="mr-2">mdi-phone</v-icon>
+                +91-9422080922
+              </v-btn>
 
-    <v-btn
-      color="primary"
-      elevation="0"
-      variant="outlined"
-      href="https://wa.me/919422080922"
-      target="_blank"
-      rounded
-      size="large"
-    >
-      <v-icon>mdi-whatsapp</v-icon>
-      WhatsApp
-    </v-btn>
-  </v-col>
-</v-row>
-
+              <v-btn
+                color="primary"
+                elevation="0"
+                variant="outlined"
+                href="https://wa.me/919422080922"
+                target="_blank"
+                rounded
+                size="large"
+              >
+                <v-icon>mdi-whatsapp</v-icon>
+                WhatsApp
+              </v-btn>
+            </v-col>
+          </v-row>
         </v-container>
       </v-col>
 
       <!-- SVG content column -->
-      <v-col md="7" class="hidden-sm-and-down">
+      <v-col md="6" class="hidden-sm-and-down">
         <svg
           id="visual"
-          viewBox="0 0 900 600"
+          viewBox="0 0 900 740"
           width="900"
-          height="600"
+          height="740"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           version="1.1"
         >
-          <rect x="0" y="0" width="900" height="600" fill="#FFFFFF"></rect>
+          <!-- Wave -->
           <path
-            d="M649 600L594.3 583.3C539.7 566.7 430.3 533.3 352 500C273.7 466.7 226.3 433.3 229.8 400C233.3 366.7 287.7 333.3 351 300C414.3 266.7 486.7 233.3 511.2 200C535.7 166.7 512.3 133.3 455.2 100C398 66.7 307 33.3 261.5 16.7L216 0L900 0L900 16.7C900 33.3 900 66.7 900 100C900 133.3 900 166.7 900 200C900 233.3 900 266.7 900 300C900 333.3 900 366.7 900 400C900 433.3 900 466.7 900 500C900 533.3 900 566.7 900 583.3L900 600Z"
-            fill="#F7770F"
+            d="M849 1100L594.3 850C539.7 800 430.3 730 352 680C273.7 630 226.3 580 229.8 520C233.3 460 287.7 400 351 360C414.3 320 486.7 280 511.2 240C535.7 200 512.3 150 455.2 100C398 50 307 20 261.5 10L216 0L1200 0L1200 10C1200 20 1200 50 1200 100C1200 150 1200 200 1200 240C1200 280 1200 320 1200 360C1200 400 1200 460 1200 520C1200 580 1200 630 1200 680C1200 730 1200 800 1200 850L1200 900Z"
+            fill="url(#wave-gradient)"
             stroke-linecap="round"
             stroke-linejoin="miter"
           ></path>
+          <!-- Gradient for Wave -->
+          <defs>
+            <linearGradient id="wave-gradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#F7770F" />
+              <stop offset="100%" stop-color="#FF9A3E" />
+            </linearGradient>
+          </defs>
+
+          <!-- Additional Decorative Elements -->
+          <circle cx="200" cy="100" r="50" fill="#FFE4D3" opacity="0.5" />
+          <circle cx="600" cy="450" r="40" fill="#FFD3BA" opacity="0.7" />
         </svg>
       </v-col>
     </v-row>
