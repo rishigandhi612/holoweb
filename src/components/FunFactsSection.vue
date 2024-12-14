@@ -4,7 +4,7 @@
     color="accent"
   >
     <div class="text-h3 font-weight-bold mb-5 mb-12">
-      Fun Facts About Our Agency
+      Facts
     </div>
 
     <v-container>
@@ -35,23 +35,23 @@
   const agency = [
     {
       icon: '/assets/agency/completed.png',
-      title: '1050+',
-      description: 'Projects Completed',
+      title: '105000000+',
+      description: 'Orders Completed',
     },
     {
       icon: '/assets/agency/heart.png',
-      title: '217k',
+      title: '9k+',
       description: 'Happy Clients',
     },
     {
       icon: '/assets/agency/awards.png',
-      title: '1210',
-      description: 'Design Awards',
+      title: '40+',
+      description: 'Years Of Legacy',
     },
     {
       icon: '/assets/agency/anchor.png',
-      title: '2137',
-      description: 'Line Of Codes',
+      title: '50+',
+      description: 'Products',
     },
   ]
 </script>

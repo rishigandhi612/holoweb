@@ -4,24 +4,24 @@
 
     <v-main>
       <LandingSection />
+      <Applications />
+      <OurPortfolioSection />
+      <About />
 
-      <Products />
-
-      <DiscoverHelp />
+      <!-- <DiscoverHelp /> -->
 
     
 
-      <WhatPeopleSaySection />
 
-      <OurPortfolioSection />
+   
 
-      <MeetOurTeamSection />
+      <!-- <MeetOurTeamSection /> -->
 
-      <AwardWinningSection />
+      <!-- <AwardWinningSection /> -->
 
-      <AmazingFeaturesSection />
+      <!-- <AmazingFeaturesSection /> -->
 
-      <PricingSection />
+      <!-- <PricingSection /> -->
       <FunFactsSection />
 
       <FAQSection />
@@ -34,7 +34,8 @@
 </template>
 
 <script>
-import Products from './components/Products.vue';
+import About from './components/About.vue';
+import Applications from './components/Applications.vue';
 
   //
 </script>

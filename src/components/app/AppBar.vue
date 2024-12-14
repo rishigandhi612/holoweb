@@ -60,9 +60,9 @@ import { ref } from 'vue';
 const drawer = ref(false); // State for the navigation drawer
 const menu = [
   'Home',
-  'About',
   'Applications',
   'Products',
+  'About',
   'ContactUs',
 ];
 </script>

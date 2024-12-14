@@ -62,9 +62,9 @@
       <v-col md="6" class="hidden-sm-and-down">
         <svg
           id="visual"
-          viewBox="0 0 900 740"
+          viewBox="0 0 900 800"
           width="900"
-          height="740"
+          height="800"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           version="1.1"

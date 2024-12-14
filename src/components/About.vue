@@ -89,46 +89,30 @@
         <v-card-title class="text-h6 text-center">Contact Us</v-card-title>
         <v-card-text>
           <v-list lines="three">
-            <v-list-item>
+            <v-list-item v-for="(item, index) in contactMethods" :key="index">
               <v-list-item-title>
                 <a
-                  href="mailto:info@hemanttraders.com"
+                  :href="item.link"
                   class="text-decoration-none text-primary"
-                  aria-label="Email"
-                >
-                  <v-icon left>mdi-email</v-icon> Mail
-                </a>
-              </v-list-item-title>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-title>
-                <a
-                  href="tel:+911234567890"
-                  class="text-decoration-none text-primary"
-                  aria-label="Call"
-                >
-                  <v-icon left>mdi-phone</v-icon> Call
-                </a>
-              </v-list-item-title>
-            </v-list-item>
-            <v-list-item>
-              <v-list-item-title>
-                <a
-                  href="https://wa.me/911234567890"
+                  :aria-label="item.label"
                   target="_blank"
-                  class="text-decoration-none text-primary"
-                  aria-label="WhatsApp"
                 >
-                  <v-icon left>mdi-whatsapp</v-icon> WhatsApp
+                  <v-icon left>{{ item.icon }}</v-icon> {{ item.text }}
                 </a>
               </v-list-item-title>
             </v-list-item>
           </v-list>
         </v-card-text>
         <v-card-actions>
-          <v-btn color="primary" text @click="dialog = false" aria-label="Close"
-            >Close</v-btn
+          <v-btn
+            color="primary"
+            text
+            @click="dialog = false"
+            aria-label="Close"
+            end
           >
+            Close
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -161,6 +145,26 @@ const whatWeDo = [
       "We pride ourselves on fast lead times, great value, and expert advice. Our established distribution channels and strong partnerships with leading Indian companies ensure long-term, secure relationships. This solid foundation enables us to deliver high-quality, cost-effective services to our customers worldwide. We’re committed to providing exceptional customer service and supporting your business in a rapidly evolving global market.",
     icon: "mdi-account-check",
     iconColor: "#FE9900", // primary color
+  },
+];
+const contactMethods = [
+  {
+    text: "Mail hemanttraders111@yahoo.in",
+    link: "mailto:info@hemanttraders.com",
+    icon: "mdi-email",
+    label: "Email",
+  },
+  {
+    text: "Call +91 9422080922",
+    link: "tel:+911234567890",
+    icon: "mdi-phone",
+    label: "Call",
+  },
+  {
+    text: "WhatsApp +91 9422080922",
+    link: "https://wa.me/919422080922?text=Hi! via@web",
+    icon: "mdi-whatsapp",
+    label: "WhatsApp",
   },
 ];
 </script>
